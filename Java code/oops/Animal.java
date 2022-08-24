@@ -22,6 +22,8 @@ public class Animal {
 		this.name=name;
 		this.favoriteFood=favoriteFood;
 	}
+	
+	Animal(){}
 	public void eat()
 	{
 		System.out.println("Eating");
